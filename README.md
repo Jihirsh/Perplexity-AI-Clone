@@ -1,41 +1,51 @@
-Perplexity-AI-Clone
-Overview
-Perplexity-AI-Clone is a web application built with Next.js, designed to replicate core functionalities inspired by Perplexity AI. It leverages modern web technologies to provide a seamless user experience with features like user authentication, dynamic content rendering, and database integration. The project uses Supabase for backend services, Clerk for authentication, and uuidv4 for generating unique identifiers.
-Features
+# Perplexity-AI-Clone
 
-User Authentication: Secure sign-in and sign-up functionality powered by Clerk.
-Dynamic Frontend: Built with Next.js for server-side rendering and static site generation.
-Database Integration: Uses Supabase for scalable and real-time database management.
-Unique ID Generation: Implements uuidv4 for generating unique identifiers for data records.
-Font Optimization: Utilizes Geist font with Next.js's font optimization.
+## Overview
 
-Tech Stack
+**Perplexity-AI-Clone** is a web application built with Next.js, designed to replicate core functionalities inspired by Perplexity AI. It leverages modern web technologies to provide a seamless user experience with features like user authentication, dynamic content rendering, and database integration.
 
-Frontend & Framework: Next.js
-Backend & Database: Supabase
-Authentication: Clerk
-Utilities: uuidv4
-Font: Geist (via next/font)
-Deployment: Vercel (recommended)
+The project uses **Supabase** for backend services, **Clerk** for authentication, and **uuidv4** for generating unique identifiers.
 
-Prerequisites
+## Features
+
+- **User Authentication:** Secure sign-in and sign-up functionality powered by Clerk.
+- **Dynamic Frontend:** Built with Next.js for server-side rendering and static site generation.
+- **Database Integration:** Uses Supabase for scalable and real-time database management.
+- **Unique ID Generation:** Implements uuidv4 for generating unique identifiers for data records.
+- **Font Optimization:** Utilizes Geist font with Next.js's font optimization.
+
+## Tech Stack
+
+- **Frontend & Framework:** Next.js  
+- **Backend & Database:** Supabase  
+- **Authentication:** Clerk  
+- **Utilities:** uuidv4  
+- **Font:** Geist (via `next/font`)  
+- **Deployment:** Vercel (recommended)
+
+## Prerequisites
+
 Before you begin, ensure you have the following installed:
 
-Node.js (version 18.x or later recommended)
-npm or yarn or pnpm or bun
-A Supabase account and project set up
-A Clerk account for authentication
-A Vercel account for deployment (optional)
+- [Node.js](https://nodejs.org/) (version 18.x or later recommended)
+- npm, yarn, pnpm, or bun
+- A [Supabase](https://supabase.com/) account and project set up
+- A [Clerk](https://clerk.dev/) account for authentication
+- A [Vercel](https://vercel.com/) account for deployment (optional)
 
-Getting Started
+## Getting Started
+
 Follow these steps to set up and run the project locally:
 
-Clone the Repository
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Jihirsh/Perplexity-AI-Clone.git
 cd Perplexity-AI-Clone
+```
 
 
-Install Dependencies
+## Install Dependencies
 npm install
 # or
 yarn install
@@ -45,53 +55,50 @@ pnpm install
 bun install
 
 
-Set Up Environment Variables
-Create a .env.local file in the root directory and add the following environment variables:
+## Set Up Environment Variables
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-project-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
 CLERK_SECRET_KEY=your-clerk-secret-key
 
 
-Obtain NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY from your Supabase project settings.
-Obtain NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY from your Clerk dashboard.
+## Deployment
 
+The easiest way to deploy this Next.js application is through the **Vercel Platform**:
 
-Run the Development Server
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Push your code to a GitHub repository.
+2. Connect your repository to Vercel via the Vercel dashboard.
+3. Configure the environment variables in the Vercel project settings:
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+   - `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+   - `CLERK_SECRET_KEY`
+4. Deploy the application.
 
-Open http://localhost:3000 in your browser to see the application.
+> For more details, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
-Edit the Application
-Start editing the main page by modifying app/page.js. The page will auto-update as you make changes.
+---
 
+## Learn More
 
-Deployment
-The easiest way to deploy this Next.js application is through the Vercel Platform. Follow these steps:
+- [Next.js Documentation](https://nextjs.org/docs) – Explore Next.js features and APIs.
+- [Supabase Documentation](https://supabase.com/docs) – Learn about Supabase for database and backend services.
+- [Clerk Documentation](https://clerk.dev/docs) – Understand Clerk's authentication system.
+- [Vercel Documentation](https://vercel.com/docs) – Guide to deploying on Vercel.
+- [Learn Next.js](https://nextjs.org/learn) – An interactive Next.js tutorial.
 
-Push your code to a GitHub repository.
-Connect your repository to Vercel via the Vercel dashboard.
-Configure the environment variables (NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY, CLERK_SECRET_KEY) in the Vercel project settings.
-Deploy the application.
+---
 
-For more details, refer to the Next.js deployment documentation.
-Learn More
+## Contributing
 
-Next.js Documentation - Explore Next.js features and APIs.
-Supabase Documentation - Learn about Supabase for database and backend services.
-Clerk Documentation - Understand Clerk's authentication system.
-Vercel Documentation - Guide to deploying on Vercel.
-Learn Next.js - An interactive Next.js tutorial.
+Contributions are welcome! Please open an issue or submit a pull request on the [GitHub repository](https://github.com/Jihirsh/Perplexity-AI-Clone).
 
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request on the GitHub repository.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-Footer
-© 2025 Jihirsh
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+© 2025 Jihirsh Credits- TubeGuruji YouTube Channel
