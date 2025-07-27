@@ -46,20 +46,27 @@ cd Perplexity-AI-Clone
 
 
 ## Install Dependencies
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
+```npm install```
+
+or
+
+```yarn install```
+
+or
+
+```pnpm install```
+
+or
+
+```bun install```
 
 
 ## Set Up Environment Variables
-NEXT_PUBLIC_SUPABASE_URL=your-supabase-project-url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
-CLERK_SECRET_KEY=your-clerk-secret-key
+
+- NEXT_PUBLIC_SUPABASE_URL=your-supabase-project-url
+- NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+- CLERK_SECRET_KEY=your-clerk-secret-key
 
 
 ## Deployment
