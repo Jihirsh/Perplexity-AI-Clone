@@ -408,9 +408,6 @@
   .max-w-2xl {
     max-width: var(--container-2xl);
   }
-  .max-w-\[260px\] {
-    max-width: 260px;
-  }
   .min-w-0 {
     min-width: calc(var(--spacing) * 0);
   }

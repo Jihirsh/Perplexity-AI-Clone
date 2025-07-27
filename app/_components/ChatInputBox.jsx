@@ -44,11 +44,11 @@ function ChatInputBox() {
           type: searchType,
           libId: libId,
         },
-      ])
-      .select();
+      ]).select();
     setLoading(false);
 
     //redirect to new screen
+    router.push('/search/' + libId)
     console.log(data[0]);
   };
 
